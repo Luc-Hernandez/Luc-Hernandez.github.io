@@ -33,7 +33,7 @@ h1
 	margin-bottom: 70px;
 }
 
-strong,
+strong
 {
 	color: #FECA07;
 }
@@ -43,6 +43,7 @@ strong,
 	height:2px;
     width:50px;
     background-color:#FECA07; 
+    margin-top: 5px;
 }
 
 
@@ -143,7 +144,7 @@ div.recommandation
 
 div.barres
 {	
-	margin-top: -20px;
+
 	height: 1px;
 	width: 100%;
 	background-color: #FECA07;
@@ -152,7 +153,7 @@ div.barres
 div.ligne_recommandation
 {
 	min-width: 175px; 
-	margin-right: 50px;
+	margin-right: 200px;
 }
 
 #droite i
