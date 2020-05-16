@@ -1,0 +1,79 @@
+@font-face 
+{
+    font-family: 'droid_sansregular';
+    src: url('DroidSans-webfont.eot');
+    src: url('DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DroidSans-webfont.woff') format('woff'),
+         url('DroidSans-webfont.ttf') format('truetype'),
+         url('DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+main
+{
+	display: block;
+}
+
+#barreh3
+{
+	margin-left: 380px;
+}
+
+#gauche
+{
+	background-color: #FFD91A;
+    width: 100%;
+    max-width: none;
+    margin-right: 0%;
+    margin-left: 0%;
+
+}
+
+#gauche p
+{
+    text-align: center;
+}
+
+#droite
+{
+	background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+div.date i
+{
+	margin-left: -150px;
+}
+
+div.date
+{
+    width: 50%;
+    max-width: none;
+    min-width: none;
+    margin-left: -75px;
+}
+
+div.description 
+{
+    width: 50%;
+}
+
+div.ligne
+{
+    width: 100%;
+    text-align: center;
+}
+
+div.ligne_recommandation
+{
+    width: 100%;
+    text-align: center;
+}
+
+#a_propos
+{
+	padding-bottom: 0%;
+}

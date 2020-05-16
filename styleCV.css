@@ -1,0 +1,182 @@
+@font-face 
+{
+    font-family: 'droid_sansregular';
+    src: url('DroidSans-webfont.eot');
+    src: url('DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DroidSans-webfont.woff') format('woff'),
+         url('DroidSans-webfont.ttf') format('truetype'),
+         url('DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+main
+{
+	display: flex;
+}
+
+
+#droite , #gauche
+{
+	display: block;
+}
+
+h1
+{
+	font-size: 45px
+}
+
+#sous_titre
+{
+	margin-top: -40px;
+	margin-bottom: 70px;
+}
+
+strong,
+{
+	color: #FECA07;
+}
+
+#barreh3
+{
+	height:2px;
+    width:50px;
+    background-color:#FECA07; 
+}
+
+
+
+/* Côté gauche */
+
+#gauche
+{
+	background-color: #FECA07;
+	width:35%;
+	margin-right: 3%;
+	min-width: 300px;
+	max-width: 300px;
+	margin-left: 25%;
+}
+
+#gauche h2
+{
+	box-shadow: 2px black;
+    background-color: black;
+    color: #FECA07;
+    text-align: center;
+}
+
+#gauche p
+{
+	margin-left: 5%;
+}
+
+#a_propos
+{
+	padding-bottom: 100%;
+}
+
+#loisirs 
+{
+	padding-left: 10px;
+	text-align: center;
+}
+
+#gauche i 
+{
+	width: 25px;
+	height: 25px;
+	margin-right: 25px;
+}
+
+/* Côté Droite*/
+
+#droite
+{
+	margin-right: 20%;
+	background-color: white;
+}
+
+#droite h4
+{
+	margin-bottom: 25px;
+}
+
+div.date i
+{
+	position: absolute;
+	margin-left: -40px;
+	margin-top: 30px;
+	margin-right: 30px;
+}
+
+div.description p, div.description h4
+{
+	margin-top: -15px;
+}
+
+div.ligne
+{
+	display: flex;
+	margin-right: 15%;
+}
+
+div.date
+{
+	max-width: 175px;
+	min-width: 175px;
+	margin-right: 50px; 
+	margin-left: 50px
+}
+
+div.date p
+{
+	margin-top: -20px;
+}
+
+div.recommandation
+{
+	display: flex;
+
+}
+
+div.barres
+{	
+	margin-top: -20px;
+	height: 1px;
+	width: 100%;
+	background-color: #FECA07;
+}
+
+div.ligne_recommandation
+{
+	min-width: 175px; 
+	margin-right: 50px;
+}
+
+#droite i
+{
+	width: 25px;
+	height: 25px;
+	margin-right: 25px;
+}
+
+
+#photo_profil img
+{
+    width: 105%; 
+    position: relative;
+
+}
+
+#photo_profil
+{
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 100%;
+    overflow: hidden;
+    border:5px solid #DAAF12; 
+}
