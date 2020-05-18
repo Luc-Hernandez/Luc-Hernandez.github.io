@@ -26,7 +26,6 @@ main
 	background-color: #FFD91A;
     width: 100%;
     max-width: none;
-    margin-right: 0%;
     margin-left: 0%;
 
 }
@@ -34,6 +33,7 @@ main
 #gauche p
 {
     text-align: center;
+    font-size: 20px;
 }
 
 #droite
@@ -43,28 +43,48 @@ main
     text-align: center;
 }
 
+#droite h2
+{
+    margin-top: 50px;
+}
+
+#droite p
+{
+    font-size: 20px;
+}
+
+#droite h4
+{
+    font-size: 22px;
+}
+
+#droite h3
+{
+    font-size: 24px;
+}
+
 div.date i
 {
-	margin-left: -150px;
+	display: none;
 }
 
 div.date
 {
-    width: 50%;
-    max-width: none;
+    width: 35%;
     min-width: none;
-    margin-left: -75px;
+    margin: auto;
 }
 
 div.description 
 {
-    width: 50%;
+    width: 65%;
+    margin: auto;
 }
 
 div.ligne
 {
     width: 100%;
-    text-align: center;
+    justify-content: center;
 }
 
 div.ligne_recommandation

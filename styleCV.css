@@ -68,20 +68,24 @@ strong
     text-align: center;
 }
 
-#gauche p
+#contact
 {
+	margin-right: 5%;
 	margin-left: 5%;
 }
 
 #a_propos
 {
 	padding-bottom: 100%;
+	margin-left: 5%;
+	margin-right:5%; 
 }
 
 #loisirs 
 {
-	padding-left: 10px;
+	margin-top: -13px;
 	text-align: center;
+
 }
 
 #gauche i 
@@ -89,6 +93,8 @@ strong
 	width: 25px;
 	height: 25px;
 	margin-right: 25px;
+	font-size: 30px;
+	margin-right: 40px;
 }
 
 /* Côté Droite*/
@@ -139,7 +145,7 @@ div.date p
 div.recommandation
 {
 	display: flex;
-
+	justify-content: center;
 }
 
 div.barres
@@ -153,7 +159,7 @@ div.barres
 div.ligne_recommandation
 {
 	min-width: 175px; 
-	margin-right: 200px;
+	margin: auto;
 }
 
 #droite i
