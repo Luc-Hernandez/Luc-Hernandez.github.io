@@ -16,9 +16,9 @@ main
 	display: block;
 }
 
-#barreh3
+#barret3
 {
-	margin-left: 380px;
+	display: none;
 }
 
 #gauche
