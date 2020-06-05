@@ -12,7 +12,7 @@
 }
 
 
-main
+body
 {
 	display: block;
 }
@@ -24,11 +24,15 @@ main
 
 #gauche
 {
-	background-color: #FFD91A;
     width: 100%;
     max-width: none;
     margin-left: 0%;
 
+}
+
+#a_propos
+{
+    padding-bottom: 0%;
 }
 
 #gauche p
@@ -42,6 +46,11 @@ main
 	background-color: white;
     width: 100%;
     text-align: center;
+}
+
+section.catégorie h3, h4, p
+{
+    text-align: left;
 }
 
 #droite h2
@@ -71,15 +80,14 @@ div.date i
 
 div.date
 {
-    width: 35%;
-    min-width: none;
+    width: 30%;
     margin: auto;
 }
 
 div.description 
 {
-    width: 65%;
-    margin: auto;
+    width: 70%;
+    margin-right: auto;
 }
 
 div.ligne
@@ -94,7 +102,18 @@ div.ligne_recommandation
     text-align: center;
 }
 
-#a_propos
+div.ligne_recommandation span
 {
-	padding-bottom: 0%;
+    font-size: 20px;
+}
+
+
+
+
+/* Photos de profil */
+
+#photo_profil
+{
+    width: 400px;
+    height: 400px;
 }
