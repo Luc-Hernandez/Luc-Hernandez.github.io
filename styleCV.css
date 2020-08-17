@@ -1,5 +1,4 @@
-
-font-face 
+@font-face 
 {
     font-family: 'droid_sansregular';
     src: url('DroidSans-webfont.eot');
@@ -41,12 +40,13 @@ strong
 
 #barret3
 {
-	height:2px;
-    width:50px;
-    background-color:#FECA07; 
+    height: 2px;
+    width: 50px;
+    background-color: #FECA07;
     margin-top: -20px;
     margin-bottom: 75px;
 }
+
 
 
 
@@ -60,11 +60,11 @@ strong
 	min-width: 300px;
 	max-width: 300px;
 	margin-left: 25%;
-	padding-top: 25px;
 }
 
 #gauche h2
 {
+	box-shadow: 2px black;
     background-color: black;
     color: #FECA07;
     text-align: center;
@@ -78,35 +78,31 @@ strong
 
 #a_propos
 {
-	padding-bottom: 100%;
+	padding-bottom: 140%;
 	margin-left: 5%;
 	margin-right:5%; 
 }
 
 #loisirs 
 {
-	display: flex;
-	padding-bottom: 20px;
-	margin-top: 10px;
 	justify-content: center;
-
+	display: flex;
 }
 
-#loisirs i 
-{
-	font-size: 25px;
-	margin-left:5px;
-	margin-top: 6px;
-}
-
-div.icones_loisirs 
-{
-	margin-right: 25px;
+div.icones_loisirs {
+    margin-right: 25px;
     width: 40px;
     height: 40px;
-	border-radius: 100%;
+    border-radius: 100%;
     overflow: hidden;
-    border:2px solid black; 
+    border: 2px solid black;
+}
+
+#loisirs i {
+    margin-left: 5px;
+    margin-top: 6px;
+    display: block;
+	font-size: 25px;
 }
 
 /* Côté Droite*/
@@ -125,7 +121,6 @@ div.icones_loisirs
 div.date i
 {
 	position: absolute;
-	color: #FECA07;
 	margin-left: -40px;
 	margin-top: 30px;
 	margin-right: 30px;
@@ -155,6 +150,13 @@ div.date p
 	margin-top: -20px;
 }
 
+div.recommandation
+{
+	display: flex;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
 div.barres
 {	
 
@@ -163,40 +165,26 @@ div.barres
 	background-color: #FECA07;
 }
 
-div.recommandation
-{
-	display: flex;
-	margin-top: 15px;
-	margin-bottom: 30px;
-}
-
-div.ligne_recommandation span
-{
-    text-align: center;
-}
-
-
 div.ligne_recommandation
 {
 	min-width: 175px; 
 	margin: auto;
-	margin-left: 50px;
+	text-align: center;
 }
+
 
 #droite i
 {
-	color: #FECA07;
-	width: 25px;
-	height: 25px;
 	margin-right: 25px;
+	color: #FECA07;
 }
 
 
-/* Photos de profil */
-
 #photo_profil img
 {
-    width: 110%; 
+    width: 105%; 
+    position: relative;
+
 }
 
 #photo_profil
@@ -204,6 +192,7 @@ div.ligne_recommandation
     width: 135px;
     height: 135px;
     margin: 0 auto;
+    margin-top: 15px;
     border-radius: 100%;
     overflow: hidden;
     border:5px solid #DAAF12; 

@@ -35,6 +35,11 @@ body
     padding-bottom: 0%;
 }
 
+#loisirs
+{
+    padding-bottom:25px;
+}
+
 #gauche p
 {
     text-align: center;
