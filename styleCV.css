@@ -74,14 +74,17 @@ strong
 {
 	margin-right: 5%;
 	margin-left: 5%;
+	margin-top: 15%;
+	margin-bottom: 15%;
 }
 
 #a_propos
 {
-	padding-bottom: 140%;
+	padding-bottom: 150%;
 	margin-left: 5%;
 	margin-right:5%; 
 	font-size: 21px;
+	margin-top: 15%;
 }
 
 #loisirs 
@@ -183,8 +186,7 @@ div.ligne_recommandation
 
 #photo_profil img
 {
-    width: 105%; 
-    position: relative;
+    width: 105%;
 
 }
 
@@ -193,8 +195,9 @@ div.ligne_recommandation
     width: 135px;
     height: 135px;
     margin: 0 auto;
-    margin-top: 15px;
     border-radius: 100%;
     overflow: hidden;
     border:5px solid #DAAF12; 
+    margin-bottom: 15%;
+    margin-top:15%; 
 }
